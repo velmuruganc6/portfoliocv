@@ -1,0 +1,110 @@
+.dark,
+#preloader,
+.dark .sub-page .sub-page-inner,
+.dark .portfolio-data,
+.dark .pulse-icon .circle-inner,
+.dark .pulse-icon .circle-outer,
+.dark .my-photo,
+.dark .testimonial-content .testimonial-review,
+.dark .owl-dot span {
+    background-color: #101010;
+}
+
+.dark .header,
+.dark .special-block-bg,
+.dark .counter-block,
+.dark .profile-picture-block,
+.dark .main-timeline .timeline-icon:before,
+.dark .label-portfolio,
+.dark .btn.btn-prev,
+.dark .social-media-block,
+.dark .profile-picture-block:before,
+.dark .profile-picture-block:after,
+.dark .error-content .form-error-search input {
+    background-color: #191919;
+}
+
+.dark .progress,
+.dark .social-media-block a,
+.dark ::-webkit-scrollbar-track-piece,
+.dark .share-buttons li a,
+.dark .home-slides .owl-dot span {
+    background: #242323;
+}
+
+.dark .section-head h4 span,
+.dark .service-block .service-text h4,
+.dark .error-content .error-message h3,
+.dark .home-slides .slide-contact-info p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.dark p,
+.dark .header-main-menu li a,
+.dark .language-skill h4 span,
+.dark .skill-item span,
+.dark .typed-strings .typed {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dark .testimonial-review::after {
+    border-top-color: #242323;
+}
+
+.dark .section-head h4 {
+    border-left: 1px solid rgba(238, 238, 238, 0.3);
+}
+
+.dark .owl-dot.active span {
+    background: #11d6f0;
+}
+
+.dark .overlay {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.dark .header-main-menu li a:hover,
+.dark .header-main-menu li a.active,
+.dark .portfolio-grid .portfolio-item:hover .portfolio-data {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.dark .rating li i.half-star {
+    color: rgba(212, 212, 212, 0.3);
+}
+
+.dark .social-media-block a {
+    border-color: transparent;
+}
+
+.dark .w-75 {
+    border-color: rgba(221, 221, 221, 0.3);
+}
+
+.dark #add-review input,
+.dark #add-review textarea,
+.dark .error-content .form-error-search {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark input[type=email],
+.dark input[type=text],
+.dark textarea {
+    background: transparent;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+}
+
+.dark .header-main-menu li a:hover,
+.dark .header-main-menu li a.active,
+.dark .testimonial-owner,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark .section-head h4,
+.dark .main-title h4,
+.dark .site-title {
+    color: #fff;
+}

@@ -16,7 +16,6 @@ Version: 1.0
  :: Typing Text
  :: Text rotation
  :: Home Slider
- :: Counter - Fun Fact
  :: Portfolio Filter
  :: Magnific Popup
  :: WOW Animation
@@ -113,50 +112,13 @@ jQuery(document).ready(function () {
      Home Slider
      ======================================*/
     $('.home-slides').owlCarousel({
-        navigation: false,
-        pagination: false,
-        items: 1,
         loop: true,
-        dots: true,
-        autoplay: 3000,
-        autoplayTimeout: 4000,
-        smartSpeed: 1000,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 1
-            },
-            768: {
-                items: 1
-            },
-            1200: {
-                items: 1
-            }
-        }
-    });
-
-    /*======================================
-     Counter - Fun Fact
-     ======================================*/
-    $('.counter-block-value').each(function () {
-        var $this = $(this),
-            countTo = $this.attr('data-count');
-        $({ countNum: $this.text() }).animate({
-            countNum: countTo
-        },
-            {
-                duration: 8000,
-                easing: 'linear',
-                step: function () {
-                    $this.text(Math.floor(this.countNum));
-                },
-                complete: function () {
-                    $this.text(this.countNum);
-                }
-            });
+        items: 1,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: false
     });
 
     /*======================================
@@ -194,9 +156,13 @@ jQuery(document).ready(function () {
      ======================================*/
     new WOW().init();
 
-    // $(".dark-mode").on("click", function (e) {
-    //     $("body").addClass("darkMode");
-    // });
+    $(".dark-mode").on("click", function () {
+        if (!$("body").hasClass("dark")) {
+            $("body").addClass("dark");
+        } else {
+            $("body").removeClass("dark");
+        }
+    });
 
     /*======================================
      Preloader
