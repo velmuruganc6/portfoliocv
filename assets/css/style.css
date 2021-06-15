@@ -115,7 +115,7 @@ a {
 }
 
 a:hover {
-    color: #FF9800;
+    color: #11d6f0;
     text-decoration: none;
     outline: none;
 }
@@ -603,6 +603,14 @@ img {
     color: #11d6f0;
 }
 
+.header-content .site-title-block .type-wrap {
+    margin-bottom: 20px;
+}
+
+.header-content .site-title-block .dark-mode {
+    font-size: 30px;
+}
+
 /* Main menu */
 .site-nav {
     display: block;
@@ -813,6 +821,13 @@ span.typed {
         height: 100%;
         z-index: 9999;
         box-shadow: 5px 0 5px -5px rgba(35, 34, 34, 0.19);
+    }
+
+    .responsive-header .dark-mode {
+        position: absolute;
+        right: 65px;
+        top: 13px;
+        font-size: 30px;
     }
 
     .responsive-header .responsive-icon {

@@ -156,12 +156,19 @@ jQuery(document).ready(function () {
      ======================================*/
     new WOW().init();
 
+    /*======================================
+    Dark Mode
+    ======================================*/
     $(".dark-mode").on("click", function () {
         if (!$("body").hasClass("dark")) {
             $("body").addClass("dark");
         } else {
             $("body").removeClass("dark");
         }
+    });
+
+    $(".dark-mode").click(function () {
+        $(this).find("i").toggleClass("fa-sun-o fa-moon-o");
     });
 
     /*======================================
