@@ -611,6 +611,10 @@ img {
     font-size: 30px;
 }
 
+.header-content .site-title-block .dark-mode i {
+    cursor: pointer;
+}
+
 /* Main menu */
 .site-nav {
     display: block;
@@ -838,6 +842,10 @@ span.typed {
         font-size: 30px;
     }
 
+    .responsive-header .dark-mode i {
+        cursor: pointer;
+    }
+
     .responsive-header .responsive-icon {
         position: absolute;
         right: 15px;
@@ -846,7 +854,7 @@ span.typed {
     }
 }
 
-/* /Mobile menu toggle */
+/* Mobile menu toggle */
 
 
 /* ============================================================================= 
