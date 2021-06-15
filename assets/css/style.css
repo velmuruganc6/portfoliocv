@@ -693,6 +693,14 @@ span.typed {
 }
 
 @media only screen and (max-width: 991px) {
+    .header-content .site-title-block .type-wrap {
+        margin-bottom: 0px;
+    }
+
+    .header-content .site-title-block .dark-mode {
+        display: none;
+    }
+
     .profile-picture-block {
         height: 90px;
     }
